@@ -18,6 +18,12 @@ services:
     build: ./backend
     ports:
       - "3000:5000"
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: marksdb
+      DB_USER: marksuser
+      DB_PASSWORD: markspass
     depends_on:
       - db
 
