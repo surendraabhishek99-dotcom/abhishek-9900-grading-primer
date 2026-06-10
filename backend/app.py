@@ -18,6 +18,8 @@ def get_students():
     return: Array of student objects
     """
     # TODO: replace with your implementation. This is a mock response
+    # data = db.get_all_students()
+    # return jsonify(data),200
     return jsonify([
         {'course': 'COMP1531', 'id': 1, 'mark': 85, 'name': 'Alice Zhang'},
         {'course': 'COMP1531', 'id': 2, 'mark': 72, 'name': 'Bob Smith'}
