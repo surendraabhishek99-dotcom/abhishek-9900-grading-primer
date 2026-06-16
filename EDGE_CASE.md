@@ -5,4 +5,4 @@
 
 for course and name we need to check whether its string typed or not. IF not I am throwing 400 error
 
-for marks I am checking whether its a number and bwtween 1 and 100. if not I am throwing 400 error
+for /stats when there are no valid marks The API returns safe default stats instead of causing a divide-by-zero error.
